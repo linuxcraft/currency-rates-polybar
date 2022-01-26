@@ -11,7 +11,7 @@ def getCrytpo(cryptoName, icon, baseCurrency='usd'):
             f'https://api.coingecko.com/api/v3/coins/{cryptoName}',
             ).json()["market_data"]
     local_price = round(Decimal(json["current_price"][f'{baseCurrency}']))
-    sys.stdout.write(f'{icon}{local_price} ')
+    sys.stdout.write(f'{icon}{local_price}')
 
 
 '''
@@ -36,5 +36,5 @@ getCrypto() takes 3 parameters:
 '''
 
 getCrytpo('bitcoin', ' ')
-getCrytpo('ethereum', ' ')
-getCrytpo('monero', ' ')
+getCrytpo('ethereum', '  ')
+getCrytpo('monero', '  ')

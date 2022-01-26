@@ -4,5 +4,4 @@
 
 
 ![screen](https://github.com/Speskov2000/files/blob/master/currency-rates-polybar/crypto.png)
-<img src="https://github.com/Speskov2000/files/blob/master/currency-rates-polybar/crypto.png">
-<img src="https://github.com/exynil/files/blob/master/dotfiles/screenshots/1.jpg">
+![screen](https://github.com/Speskov2000/files/blob/master/currency-rates-polybar/fiat.png)

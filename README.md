@@ -11,7 +11,7 @@ Two modules that display rates of fiat currencies and cryptocurrencies
 
 # Setup
 1. Clone the repository somewhere
-2. Move (or create symlink from dotfiles) the scripts fiat.py and crypto.py to ~/.config/polybar/scripts 
+2. Move (or create symlink from dotfiles) the scripts `fiat.py` and `crypto.py` to `~/.config/polybar/scripts `
 3. Make them executable:
 ```
 sudo chmod u+x ~/.config/polybar/scripts/crypto.py

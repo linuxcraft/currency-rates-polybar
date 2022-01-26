@@ -49,7 +49,7 @@ label-foreground = #9DE5DD
 You can see an example of the configuration [here](https://github.com/Speskov2000/dotfiles/tree/job/polybar/.config/polybar).
 
 ## Dependencies
-In the screenshots [this font](https://github.com/allienworks/cryptocoins) was used for cryptocurrencies. For fiat currencies was used [this font](https://github.com/allienworks/cryptocoins).
+In the screenshots [this font](https://github.com/allienworks/cryptocoins) was used for cryptocurrencies. For fiat currencies was used Material Design Icons.
 
 If you don't know how to use custom icons in polybar - [this video](https://www.youtube.com/watch?v=nVSUiRUgspQ) will help you)
 

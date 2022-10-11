@@ -1,18 +1,15 @@
 # currency-rates-polybar
-Two modules that display rates of fiat currencies and cryptocurrencies
+Two modules that display rates of crypto & fiat currencies
 
-
-
-![screen](.readme_static/crypto.png)
-
-![screen](.readme_static/fiat.png)
-
+| Crypto currencies                    | Fiat currencies                    |
+|--------------------------------------|------------------------------------|
+| ![screen](.readme_static/crypto.png) | ![screen](.readme_static/fiat.png) |
 
 
 # Setup
 1. Clone the repository somewhere
 2. Move (or create symlink from dotfiles) the scripts `fiat.py` and `crypto.py`
-to `~/.config/polybar/scripts `
+to `~/.config/polybar/scripts`
 3. Make them executable (if they aren't):
 ```
 sudo chmod u+x ~/.config/polybar/scripts/crypto.py
@@ -75,5 +72,10 @@ font-2 = Material Design Icons:size=12;2
 (Don't forget that fonts can overlap each other, so it is important to place cryptocoins above)
 
 ## Fullscreen examples:
-![screen](.readme_static/crypto-fs.png)
-![screen](.readme_static/fiat-fs.png)
+| Crypto currencies                       |
+|-----------------------------------------|
+| ![screen](.readme_static/crypto-fs.png) |
+
+| Fiat currencies                       |
+|---------------------------------------|
+| ![screen](.readme_static/fiat-fs.png) |

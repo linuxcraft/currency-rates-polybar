@@ -23,7 +23,13 @@ getFiat() takes 2 parameters:
 
 # sys.stdout.write() will output the content to the polybar.
 # Use as default print() (and use spaces to adjust the display)
-sys.stdout.write(f'󰆱{getFiat("RUB")} ')
-sys.stdout.write(f'󰡥{getFiat("KZT")}({getFiat("KZT", "RUB")}) ')
-sys.stdout.write(f'󰞼{getFiat("JPY")} ')
-sys.stdout.write(f'󰞿{getFiat("HKD")}')
+try:
+    sys.stdout.write(f'󰆱{getFiat("RUB")} ')
+    sys.stdout.write(f'󰡥{getFiat("KZT")}({getFiat("KZT", "RUB")}) ')
+    sys.stdout.write(f'󰞼{getFiat("JPY")} ')
+    sys.stdout.write(f'󰞿{getFiat("HKD")}')
+except Exception:
+    sys.stdout.write("󰆱None")
+    sys.stdout.write("󰡥None")
+    sys.stdout.write("󰞼None")
+    sys.stdout.write("󰞿None")
